@@ -4,7 +4,7 @@ Este é um projeto de portfólio criado utilizando o Bento Grid, uma estrutura f
 
 ## Live ▶
 
-https://react-js-portfolio-bento.vercel.app/
+[https://react-js-portfolio-bento.vercel.app/](https://react-js-portfolio-bento-t8n5.vercel.app/)
 
 ![web](https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento/assets/104178969/fce2399d-b5f8-4e89-80ea-420e40b61a6d)
 
