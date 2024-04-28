@@ -2,6 +2,14 @@
 
 Este é um projeto de portfólio criado utilizando o Bento Grid, uma estrutura flexível e poderosa para o desenvolvimento de interfaces web. Neste README, você encontrará informações sobre como utilizar e personalizar este projeto para criar o seu próprio portfólio impressionante.
 
+## Live ▶
+
+https://react-js-portfolio-bento.vercel.app/
+
+![web](https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento/assets/104178969/fce2399d-b5f8-4e89-80ea-420e40b61a6d)
+
+
+
 ## Personalização 💻
 
 Você pode personalizar este projeto de diversas maneiras para atender às suas necessidades e preferências. Aqui estão algumas sugestões:
