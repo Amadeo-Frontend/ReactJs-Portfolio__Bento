@@ -4,7 +4,7 @@ Bem-vindo ao meu Portfólio! Aqui você encontrará informações sobre os meus 
 
 ## Visão Geral 🎯
 
-Este é um projeto de portfólio desenvolvido para destacar minhas habilidades e projetos de desenvolvimento Frontend. Este projeto foi desenvolvido em ReactJS, utilizando Tailwind CSS para estilização, Framer Motion para animações e Vite como bundler, tudo isso escrito em TypeScript. Utilizei o Bento Grid para criar uma estrutura flexível e poderosa, garantindo uma experiência de usuário excepcional.  O objetivo é destacar minhas habilidades e projetos de desenvolvimento web, proporcionando uma experiência de usuário excepcional
+Este é um projeto de portfólio desenvolvido para destacar minhas habilidades e projetos de desenvolvimento Frontend. Este projeto foi desenvolvido em ReactJS, utilizando Tailwind CSS para estilização, Framer Motion para animações e Vite como bundler, tudo isso escrito em TypeScript. Utilizei o Bento Grid para criar uma estrutura flexível e poderosa, garantindo uma experiência de usuário excepcional.  O objetivo é destacar minhas habilidades e projetos de desenvolvimento web, proporcionando uma experiência de usuário excepcional.
 
 ## Demonstração ▶
 
