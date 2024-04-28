@@ -2,7 +2,7 @@
 
 Este é um projeto de portfólio criado utilizando o Bento Grid, uma estrutura flexível e poderosa para o desenvolvimento de interfaces web. Neste README, você encontrará informações sobre como utilizar e personalizar este projeto para criar o seu próprio portfólio impressionante.
 
-## Live
+## Live ▶
 
 https://react-js-portfolio-bento.vercel.app/
 
