@@ -6,7 +6,8 @@ Este é um projeto de portfólio criado utilizando o Bento Grid, uma estrutura f
 
 https://react-js-portfolio-bento.vercel.app/
 
-![Captura de tela_28-4-2024_04032_localhost](https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento/assets/104178969/2bbdf830-1e1f-46c0-8ea7-b37d49e2ffea)
+![web](https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento/assets/104178969/fce2399d-b5f8-4e89-80ea-420e40b61a6d)
+
 
 
 ## Personalização 💻
