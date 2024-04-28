@@ -8,7 +8,7 @@ import Block from "./Block";
 const EmailBlock = () => {
     const [email, setEmail] = useState('');
     
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
 
         if (!email) {
