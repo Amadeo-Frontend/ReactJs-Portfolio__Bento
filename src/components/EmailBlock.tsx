@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Block from "./Block";
+import ShinyButton from "./ButtonShiny";
 
 const EmailBlock = () => {
     const [email, setEmail] = useState('');
@@ -51,12 +52,7 @@ const EmailBlock = () => {
                     placeholder="Digite seu email"
                     className="w-full rounded border border-zinc-700 bg-zinc-800 px-3 py-1.5 transition-colors focus:border-red-300 focus:outline-0"
                 />
-                <button 
-                    type="submit"
-                    className="flex items-center gap-2 px-3 py-2 text-sm font-medium transition-colors rounded whitespace-nowrap bg-zinc-50 font-sora text-zinc-900 hover:bg-zinc-300"
-                >
-                    <FiMail/> Inscrever-se
-                </button>
+                <ShinyButton />
             </form>
             <ToastContainer position="bottom-center" />
         </Block>
