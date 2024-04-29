@@ -58,7 +58,7 @@ const EmailBlock = () => {
         />
         <button
           type="submit"
-          className="flex items-center gap-2 px-3 py-2 text-sm font-medium transition-transform transform rounded whitespace-nowrap bg-zinc-50 font-sora text-zinc-900 hover:bg-zinc-300 hover:shadow-lg hover:shadow-gray-400 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex items-center gap-2 px-3 py-2 text-sm font-medium transition-transform transform rounded whitespace-nowrap bg-zinc-50 font-sora text-zinc-900 hover:bg-zinc-300 hover:shadow-md hover:shadow-gray-400 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <FiMail /> Inscrever-se
         </button>
