@@ -1,9 +1,7 @@
-import Bento from "./components/Bento"
+import Bento from "./components/Bento";
 
 const App = () => {
-  return (
-      <Bento/>
-  )
-}
+  return <Bento />;
+};
 
-export default App
+export default App;
