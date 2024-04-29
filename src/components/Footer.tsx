@@ -10,7 +10,7 @@ const Footer = () => {
         </span>{" "}
         by{" "}
         <a
-          href="mailto:amadeobon@outlook.com"
+          href="https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento"
           className="mx-1 text-red-300 hover:underline hover:text-red-400"
         >
           AmadeoBon
