@@ -1,43 +1,43 @@
-import { useState } from "react";
-import { FiMail } from "react-icons/fi";
-import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Block from "./Block";
+import { useState } from 'react';
+import { FiMail } from 'react-icons/fi';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Block from './Block';
 
 const EmailBlock = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     if (!email) {
       // Se o campo de email estiver vazio, exibe um toast de erro
-      toast.error("Por favor, insira um email válido.");
+      toast.error('Por favor, insira um email válido.');
       return; // Retorna para interromper o envio do formulário
     }
 
     const templateParms = {
-      from_name: "Seu Nome",
+      from_name: 'Seu Nome',
       email: email,
-      message: "Mensagem de teste",
+      message: 'Mensagem de teste',
     };
 
-    const serviceID = "service_d2q2kme";
-    const templateID = "template_8imgz1l";
-    const userID = "XxFKr6KxpmJ_DR8ab";
+    const serviceID = 'service_d2q2kme';
+    const templateID = 'template_8imgz1l';
+    const userID = 'XxFKr6KxpmJ_DR8ab';
 
     emailjs
       .send(serviceID, templateID, templateParms, userID)
-      .then((response) => {
-        console.log("Email enviado com sucesso!", response);
-        toast.success("Email enviado com sucesso!");
-        setEmail("");
+      .then(response => {
+        console.log('Email enviado com sucesso!', response);
+        toast.success('Email enviado com sucesso!');
+        setEmail('');
       })
-      .catch((error) => {
-        console.error("Erro ao enviar o email:", error);
+      .catch(error => {
+        console.error('Erro ao enviar o email:', error);
         toast.error(
-          "Erro ao enviar o email. Por favor, tente novamente mais tarde."
+          'Erro ao enviar o email. Por favor, tente novamente mais tarde.',
         );
       });
   };
@@ -52,15 +52,16 @@ const EmailBlock = () => {
           type="email"
           name="email"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={e => setEmail(e.target.value)}
           placeholder="Digite seu email"
           className="w-full rounded border border-zinc-700 bg-zinc-800 px-3 py-1.5 transition-colors focus:border-red-300 focus:outline-0"
         />
         <button
           type="submit"
-          className="flex items-center gap-2 px-3 py-2 text-sm font-medium transition-transform transform rounded whitespace-nowrap bg-zinc-50 font-sora text-zinc-900 hover:bg-zinc-300 hover:shadow-md hover:shadow-gray-400 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="relative flex items-center justify-center px-4 py-2 overflow-hidden font-medium duration-300 border border-b-4 rounded-md outline-none whitespace-nowrap bg-neutral-900 text-neutral-400 border-neutral-400 hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 group"
         >
-          <FiMail /> Inscrever-se
+          <span className="bg-neutral-400 shadow-neutral-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+          Inscreva-se
         </button>
       </form>
       <ToastContainer position="bottom-center" />

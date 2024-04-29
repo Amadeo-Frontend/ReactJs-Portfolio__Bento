@@ -29,7 +29,7 @@ const Block = ({ className, ...rest }: Props) => {
       }}
       className={twMerge(
         "col-span-4 p-6 border rounded-lg border-zinc-700 bg-zinc-800",
-        className,
+        className
       )}
       {...rest}
     />

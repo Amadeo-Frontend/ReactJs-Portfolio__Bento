@@ -1,5 +1,5 @@
-import { FiMapPin } from "react-icons/fi";
-import Block from "./Block";
+import { FiMapPin } from 'react-icons/fi';
+import Block from './Block';
 
 const LocationBlock = () => {
   return (
