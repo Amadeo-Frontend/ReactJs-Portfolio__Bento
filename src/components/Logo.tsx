@@ -1,4 +1,4 @@
-import { FaLaptopCode } from "react-icons/fa";
+import { FaLaptopCode } from 'react-icons/fa';
 
 const Logo = () => {
   return (
