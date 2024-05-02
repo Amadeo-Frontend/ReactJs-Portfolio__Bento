@@ -1,11 +1,11 @@
-import Block from './Block';
+import Block from "./Block";
 
 const ProjectsBlock = () => {
   return (
     <>
       <Block
         whileHover={{
-          rotate: '1.5deg',
+          rotate: "1.5deg",
           scale: 1.1,
         }}
         className="col-span-6 p-2 md:col-span-3"
@@ -24,7 +24,7 @@ const ProjectsBlock = () => {
       </Block>
       <Block
         whileHover={{
-          rotate: '-1.5deg',
+          rotate: "-1.5deg",
           scale: 1.1,
         }}
         className="col-span-6 p-2 md:col-span-3"
@@ -43,7 +43,7 @@ const ProjectsBlock = () => {
       </Block>
       <Block
         whileHover={{
-          rotate: '1.5deg',
+          rotate: "1.5deg",
           scale: 1.1,
         }}
         className="col-span-6 p-2 md:col-span-3"
@@ -62,7 +62,7 @@ const ProjectsBlock = () => {
       </Block>
       <Block
         whileHover={{
-          rotate: '-1.5deg',
+          rotate: "-1.5deg",
           scale: 1.1,
         }}
         className="col-span-6 p-2 md:col-span-3"

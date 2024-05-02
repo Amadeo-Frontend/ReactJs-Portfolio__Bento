@@ -1,4 +1,4 @@
-import Block from './Block';
+import Block from "./Block";
 
 const AboutBlock = () => {
   return (
@@ -6,7 +6,7 @@ const AboutBlock = () => {
       <p>
         Como desenvolvedor de frontend, tenho um profundo entusiasmo por criar
         experiências digitais envolventes e funcionais utilizando tecnologias
-        como ReactJS, Angular e React Native. {''}
+        como ReactJS, Angular e React Native. {""}
         <span className="text-zinc-400">
           Sou capaz de construir interfaces responsivas e dinâmicas para web e
           dispositivos móveis. Minha abordagem centrada no usuário e minha

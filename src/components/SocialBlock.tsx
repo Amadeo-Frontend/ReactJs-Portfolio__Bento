@@ -1,12 +1,12 @@
-import { SiGithub, SiInstagram, SiLinkedin, SiWhatsapp } from 'react-icons/si';
-import Block from './Block';
+import { SiGithub, SiInstagram, SiLinkedin, SiWhatsapp } from "react-icons/si";
+import Block from "./Block";
 
 const SocialBlock = () => {
   return (
     <>
       <Block
         whileHover={{
-          rotate: '-2.5deg',
+          rotate: "-2.5deg",
           scale: 1.1,
         }}
         className="col-span-6 bg-blue-500 md:col-span-3"
@@ -21,7 +21,7 @@ const SocialBlock = () => {
       </Block>
       <Block
         whileHover={{
-          rotate: '2.5deg',
+          rotate: "2.5deg",
           scale: 1.1,
         }}
         className="col-span-6 bg-red-500 md:col-span-3"
@@ -36,7 +36,7 @@ const SocialBlock = () => {
       </Block>
       <Block
         whileHover={{
-          rotate: '2.5deg',
+          rotate: "2.5deg",
           scale: 1.1,
         }}
         className="col-span-6 bg-zinc-900 md:col-span-3"
@@ -51,7 +51,7 @@ const SocialBlock = () => {
       </Block>
       <Block
         whileHover={{
-          rotate: '-2.5deg',
+          rotate: "-2.5deg",
           scale: 1.1,
         }}
         className="col-span-6 bg-green-600 md:col-span-3"

@@ -1,5 +1,5 @@
-import { motion, MotionProps } from 'framer-motion';
-import { twMerge } from 'tailwind-merge';
+import { motion, MotionProps } from "framer-motion";
+import { twMerge } from "tailwind-merge";
 
 type Props = {
   className?: string;
@@ -22,13 +22,13 @@ const Block = ({ className, ...rest }: Props) => {
       }}
       transition={{
         duration: 0.5,
-        type: 'spring',
+        type: "spring",
         stiffness: 400,
         damping: 50,
         mass: 3,
       }}
       className={twMerge(
-        'col-span-4 p-6 border rounded-lg border-zinc-700 bg-zinc-800',
+        "col-span-4 p-6 border rounded-lg border-zinc-700 bg-zinc-800",
         className,
       )}
       {...rest}

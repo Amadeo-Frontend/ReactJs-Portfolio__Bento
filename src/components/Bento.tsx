@@ -1,13 +1,13 @@
-import { motion } from 'framer-motion';
-import AboutBlock from './AboutBlock';
-import EmailBlock from './EmailBlock';
-import HeaderBlock from './HeaderBlock';
-import LocationBlock from './LocationBlock';
-import SocialBlock from './SocialBlock';
-import Logo from './Logo';
-import Footer from './Footer';
-import ProjectsBlock from './ProjectsBlock';
-import ProjectsTextBlock from './ProjectsTextBlock';
+import { motion } from "framer-motion";
+import AboutBlock from "./AboutBlock";
+import EmailBlock from "./EmailBlock";
+import HeaderBlock from "./HeaderBlock";
+import LocationBlock from "./LocationBlock";
+import SocialBlock from "./SocialBlock";
+import Logo from "./Logo";
+import Footer from "./Footer";
+import ProjectsBlock from "./ProjectsBlock";
+import ProjectsTextBlock from "./ProjectsTextBlock";
 
 const Bento = () => {
   return (
