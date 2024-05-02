@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Example = () => {
   return (
-    <div className="grid min-h-[200px] place-content-center">
+    <div>
       <EncryptButton />
     </div>
   );
