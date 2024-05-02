@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Block from "./Block";
+import EncryptButton from "./EncryptButton";
 
 const EmailBlock = () => {
   const [email, setEmail] = useState("");
@@ -55,13 +56,7 @@ const EmailBlock = () => {
           placeholder="Digite seu email"
           className="w-full rounded border border-zinc-700 bg-zinc-800 px-3 py-1.5 transition-colors focus:border-red-300 focus:outline-0"
         />
-        <button
-          type="submit"
-          className="relative flex items-center justify-center px-4 py-2 overflow-hidden font-medium duration-300 border border-b-4 rounded-md outline-none whitespace-nowrap bg-neutral-900 text-neutral-400 border-neutral-400 hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 group"
-        >
-          <span className="bg-neutral-400 shadow-neutral-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
-          Inscreva-se
-        </button>
+        <EncryptButton />
       </form>
       <ToastContainer position="bottom-center" />
     </Block>
