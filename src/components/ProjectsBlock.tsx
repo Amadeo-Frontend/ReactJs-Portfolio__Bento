@@ -1,9 +1,14 @@
+import { useState } from "react";
 import Block from "./Block";
 
 const ProjectsBlock = () => {
+  const [hoveredBlock, setHoveredBlock] = useState<null | string>(null);
+
   return (
     <>
       <Block
+        onMouseEnter={() => setHoveredBlock("Angular Quiz")}
+        onMouseLeave={() => setHoveredBlock(null)}
         whileHover={{
           rotate: "1.5deg",
           scale: 1.1,
@@ -13,16 +18,29 @@ const ProjectsBlock = () => {
         <a
           href="https://github.com/Amadeo-Frontend/Angular-Quiz"
           target="blank"
-          className="grid h-full place-content-center"
+          className="relative grid h-full place-content-center"
         >
           <img
             src="/buzz-mockup.png"
             alt="Angular app"
             className="object-cover w-full h-full rounded-xl"
           />
+          {hoveredBlock === "Angular Quiz" && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div className="p-3 text-white">
+                <h2 className="mb-1">Angular Quiz</h2>
+                <p className="text-md">
+                  Um aplicativo de quiz sobre DragonBall.
+                </p>
+              </div>
+            </div>
+          )}
         </a>
       </Block>
+
       <Block
+        onMouseEnter={() => setHoveredBlock("Cat Adoption App")}
+        onMouseLeave={() => setHoveredBlock(null)}
         whileHover={{
           rotate: "-1.5deg",
           scale: 1.1,
@@ -32,16 +50,27 @@ const ProjectsBlock = () => {
         <a
           href="https://github.com/Amadeo-Frontend/React-Native__Cat-adoption-app"
           target="blank"
-          className="grid h-full place-content-center"
+          className="relative grid h-full place-content-center"
         >
           <img
             src="/cat-mockup.png"
-            alt="Angular app"
+            alt="Cat Adoption App"
             className="object-cover w-full h-full rounded-xl"
           />
+          {hoveredBlock === "Cat Adoption App" && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div className="p-3 text-white">
+                <h2 className="mb-1">Cat Adoption App</h2>
+                <p>Um aplicativo de adoção de gatos.</p>
+              </div>
+            </div>
+          )}
         </a>
       </Block>
+
       <Block
+        onMouseEnter={() => setHoveredBlock("Chat Codex")}
+        onMouseLeave={() => setHoveredBlock(null)}
         whileHover={{
           rotate: "1.5deg",
           scale: 1.1,
@@ -51,16 +80,27 @@ const ProjectsBlock = () => {
         <a
           href="https://github.com/Amadeo-Frontend/Chat-codex"
           target="blank"
-          className="grid h-full place-content-center"
+          className="relative grid h-full place-content-center"
         >
           <img
             src="/codex-mockup.png"
-            alt="Angular app"
+            alt="Chat Codex"
             className="object-cover w-full h-full rounded-xl"
           />
+          {hoveredBlock === "Chat Codex" && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div className="p-3 text-white">
+                <h2 className="mb-1">Chat Codex</h2>
+                <p>Um chatbot usando a API da OpenAI.</p>
+              </div>
+            </div>
+          )}
         </a>
       </Block>
+
       <Block
+        onMouseEnter={() => setHoveredBlock("Weather App")}
+        onMouseLeave={() => setHoveredBlock(null)}
         whileHover={{
           rotate: "-1.5deg",
           scale: 1.1,
@@ -70,13 +110,21 @@ const ProjectsBlock = () => {
         <a
           href="https://github.com/Amadeo-Frontend/Weather-app"
           target="blank"
-          className="grid h-full place-content-center"
+          className="relative grid h-full place-content-center"
         >
           <img
             src="/weather-mockup.png"
-            alt="Angular app"
+            alt="Weather App"
             className="object-cover w-full h-full rounded-xl"
           />
+          {hoveredBlock === "Weather App" && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div className="p-3 text-white">
+                <h2 className="mb-1">Weather App</h2>
+                <p>Um aplicativo de previsão do tempo.</p>
+              </div>
+            </div>
+          )}
         </a>
       </Block>
     </>

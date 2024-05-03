@@ -3,9 +3,11 @@ import { twMerge } from "tailwind-merge";
 
 type Props = {
   className?: string;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 } & MotionProps;
 
-const Block = ({ className, ...rest }: Props) => {
+const Block = ({ className, onMouseEnter, onMouseLeave, ...rest }: Props) => {
   return (
     <motion.div
       variants={{
@@ -31,6 +33,8 @@ const Block = ({ className, ...rest }: Props) => {
         "col-span-4 p-6 border rounded-lg border-zinc-700 bg-zinc-800",
         className
       )}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       {...rest}
     />
   );
