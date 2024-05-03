@@ -19,7 +19,7 @@ const HeaderBlock = () => {
       <img
         src={currentImage}
         alt="Avatar"
-        className="object-fill mb-4 transition-all duration-500 ease-in-out rounded-full size-14"
+        className="object-fill mb-4 transition-all duration-500 ease-in-out rounded-lg size-14"
       />
       <h1 className="mb-12 text-2xl font-medium leading-tight tracking-tighter font-sora">
         Olá, eu sou Amadeo Bon. {""}
