@@ -30,7 +30,7 @@ const Block = ({ className, onMouseEnter, onMouseLeave, ...rest }: Props) => {
         mass: 3,
       }}
       className={twMerge(
-        "col-span-4 p-6 border rounded-lg border-zinc-700 bg-zinc-800",
+        "col-span-4 p-6 border rounded-lg border-cyan-900 bg-zinc-800",
         className
       )}
       onMouseEnter={onMouseEnter}

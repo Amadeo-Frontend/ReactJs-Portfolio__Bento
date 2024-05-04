@@ -18,7 +18,7 @@ const ProjectsBlock = () => {
         <a
           href="https://github.com/Amadeo-Frontend/Angular-Quiz"
           target="blank"
-          className="relative grid h-full place-content-center"
+          className="relative grid h-full place-content-center hover:border-cyan-300"
         >
           <img
             src="/buzz-mockup.png"
@@ -26,7 +26,7 @@ const ProjectsBlock = () => {
             className="object-cover w-full h-full rounded-xl"
           />
           {hoveredBlock === "Angular Quiz" && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
                 <h2 className="mb-1">Angular Quiz</h2>
                 <p className="text-md">
@@ -58,10 +58,10 @@ const ProjectsBlock = () => {
             className="object-cover w-full h-full rounded-xl"
           />
           {hoveredBlock === "Cat Adoption App" && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
                 <h2 className="mb-1">Cat Adoption App</h2>
-                <p>Um aplicativo de adoção de gatos.</p>
+                <p>Um mobile app de adoção de gatos.</p>
               </div>
             </div>
           )}
@@ -88,7 +88,7 @@ const ProjectsBlock = () => {
             className="object-cover w-full h-full rounded-xl"
           />
           {hoveredBlock === "Chat Codex" && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
                 <h2 className="mb-1">Chat Codex</h2>
                 <p>Um chatbot usando a API da OpenAI.</p>
@@ -118,10 +118,10 @@ const ProjectsBlock = () => {
             className="object-cover w-full h-full rounded-xl"
           />
           {hoveredBlock === "Weather App" && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
                 <h2 className="mb-1">Weather App</h2>
-                <p>Um aplicativo de previsão do tempo.</p>
+                <p>Um aplicativo usando a API de previsão do tempo.</p>
               </div>
             </div>
           )}

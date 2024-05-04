@@ -23,7 +23,7 @@ const HeaderBlock = () => {
       />
       <h1 className="mb-12 text-2xl font-medium leading-tight tracking-tighter font-sora">
         Olá, eu sou Amadeo Bon. {""}
-        <span className="text-zinc-400">
+        <span className="text-third">
           Trago vida à web com designs únicos e funcionais. Vamos construir um
           site incrível juntos!
         </span>
