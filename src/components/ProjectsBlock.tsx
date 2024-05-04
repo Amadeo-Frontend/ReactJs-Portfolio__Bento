@@ -28,8 +28,8 @@ const ProjectsBlock = () => {
           {hoveredBlock === "Angular Quiz" && (
             <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
-                <h2 className="mb-1">Angular Quiz</h2>
-                <p className="text-md">
+                <h2 className="mb-1 font-sora">Angular Quiz</h2>
+                <p className="font-thin">
                   Um aplicativo de quiz sobre DragonBall.
                 </p>
               </div>
@@ -60,8 +60,8 @@ const ProjectsBlock = () => {
           {hoveredBlock === "Cat Adoption App" && (
             <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
-                <h2 className="mb-1">Cat Adoption App</h2>
-                <p>Um mobile app de adoção de gatos.</p>
+                <h2 className="mb-1 font-sora">Cat Adoption App</h2>
+                <p className="font-thin">Um mobile app de adoção de gatos.</p>
               </div>
             </div>
           )}
@@ -90,8 +90,8 @@ const ProjectsBlock = () => {
           {hoveredBlock === "Chat Codex" && (
             <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
-                <h2 className="mb-1">Chat Codex</h2>
-                <p>Um chatbot usando a API da OpenAI.</p>
+                <h2 className="mb-1 font-sora">Chat Codex</h2>
+                <p className="font-thin">Um chatbot usando a API da OpenAI.</p>
               </div>
             </div>
           )}
@@ -120,8 +120,10 @@ const ProjectsBlock = () => {
           {hoveredBlock === "Weather App" && (
             <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 rounded-lg bg-zinc-800">
               <div className="p-3 text-white">
-                <h2 className="mb-1">Weather App</h2>
-                <p>Um aplicativo usando a API de previsão do tempo.</p>
+                <h2 className="mb-1 font-sora">Weather App</h2>
+                <p className="font-thin">
+                  Um aplicativo usando a API de previsão do tempo.
+                </p>
               </div>
             </div>
           )}
