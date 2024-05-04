@@ -2,12 +2,12 @@ import { useState, useEffect } from "react";
 import Block from "./Block";
 
 const HeaderBlock = () => {
-  const [currentImage, setCurrentImage] = useState("/img.jpg");
+  const [currentImage, setCurrentImage] = useState("/avatar.png");
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) =>
-        prevImage === "/img.jpg" ? "/eu.jpg" : "/img.jpg"
+        prevImage === "/avatar.png" ? "/eu.jpg" : "/avatar.png"
       );
     }, 5000);
 
@@ -19,7 +19,7 @@ const HeaderBlock = () => {
       <img
         src={currentImage}
         alt="Avatar"
-        className="object-fill mb-4 transition-all duration-500 ease-in-out rounded-lg size-14"
+        className="object-cover mb-4 transition-all duration-500 ease-in-out border rounded-full border-cyan-400 size-14"
       />
       <h1 className="mb-12 text-2xl font-medium leading-tight tracking-tighter font-sora">
         Olá, eu sou Amadeo Bon. {""}
