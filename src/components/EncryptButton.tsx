@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Example = () => {
   return (
-    <div>
+    <div className="w-full md:w-[35%]">
       <EncryptButton />
     </div>
   );
@@ -64,7 +64,7 @@ const EncryptButton = () => {
       }}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
-      className="group relative flex justify-center items-center overflow-hidden rounded-lg border-[1px] whitespace-nowrap border-neutral-300 bg-zinc-850 px-6 py-2 font-mono font-medium uppercase text-neutral-300 transition-colors hover:text-cyan-300 hover:border-cyan-300"
+      className="w-full sm:max-w-full group relative flex justify-center items-center overflow-hidden rounded-lg border-[1px] whitespace-nowrap border-neutral-300 bg-zinc-850 px-6 py-2 font-mono font-medium uppercase text-neutral-300 transition-colors hover:text-cyan-300 hover:border-cyan-300"
     >
       <div className="relative z-10 flex items-center gap-2">
         <FiMail />

@@ -57,7 +57,7 @@ const EmailBlock = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Digite seu email"
-          className="w-full rounded border border-cyan-900 bg-zinc-800 px-3 py-1.5 transition-colors focus:border-cyan-300 focus:outline-0"
+          className="w-full mb-1 md:mb-0 rounded border border-cyan-900 bg-zinc-800 px-3 py-1.5 transition-colors focus:border-cyan-300 focus:outline-0"
         />
         <EncryptButton />
       </form>
