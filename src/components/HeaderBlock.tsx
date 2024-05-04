@@ -6,8 +6,8 @@ const HeaderBlock = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImage((prevImage) =>
-        prevImage === "/avatar.png" ? "/eu.jpg" : "/avatar.png"
+      setCurrentImage(prevImage =>
+        prevImage === "/avatar.png" ? "/eu.jpg" : "/avatar.png",
       );
     }, 5000);
 

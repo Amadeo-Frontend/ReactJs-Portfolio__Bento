@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        backgroundColor:'#2d3748',
-        primary: '#4a5568',
-        secondary: '#cbd5e0',
-        accent: '#F13024',
-        third: ' #a0aec0',
+        backgroundColor: "#2d3748",
+        primary: "#4a5568",
+        secondary: "#cbd5e0",
+        accent: "#F13024",
+        third: " #a0aec0",
       },
       fontFamily: {
         sora: [`var(--font-sora)`, "sans-serif"],

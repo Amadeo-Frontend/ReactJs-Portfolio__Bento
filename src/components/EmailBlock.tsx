@@ -29,15 +29,15 @@ const EmailBlock = () => {
 
     emailjs
       .send(serviceID, templateID, templateParms, userID)
-      .then((response) => {
+      .then(response => {
         console.log("Email enviado com sucesso!", response);
         toast.success("Email enviado com sucesso!");
         setEmail("");
       })
-      .catch((error) => {
+      .catch(error => {
         console.error("Erro ao enviar o email:", error);
         toast.error(
-          "Erro ao enviar o email. Por favor, tente novamente mais tarde."
+          "Erro ao enviar o email. Por favor, tente novamente mais tarde.",
         );
       });
   };
@@ -55,7 +55,7 @@ const EmailBlock = () => {
           type="email"
           name="email"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={e => setEmail(e.target.value)}
           placeholder="Digite seu email"
           className="w-full mb-1 md:mb-0 rounded border border-cyan-900 bg-zinc-800 px-3 py-1.5 transition-colors focus:border-cyan-300 focus:outline-0"
         />

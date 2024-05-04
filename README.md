@@ -12,7 +12,6 @@ Confira o meu portfólio em ação clicando [AQUI](https://react-js-portfolio-be
 
 ![web](https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento/assets/104178969/b8aad64e-2624-473d-bae8-873a238cf467)
 
-
 ## Personalização 💻
 
 Este projeto é altamente personalizável para atender às suas necessidades. Aqui estão algumas maneiras de adaptá-lo:

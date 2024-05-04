@@ -9,9 +9,9 @@ const AboutBlock = () => {
         como ReactJS, Angular e React Native. {""}
         <span className="text-zinc-400">
           Sou capaz de construir interfaces responsivas e dinâmicas para web e
-          dispositivos móveis. Estou sempre buscando aprender e me atualizar nas últimas
-          tendências e melhores práticas do desenvolvimento frontend para
-          proporcionar soluções de ponta aos meus clientes e usuários.
+          dispositivos móveis. Estou sempre buscando aprender e me atualizar nas
+          últimas tendências e melhores práticas do desenvolvimento frontend
+          para proporcionar soluções de ponta aos meus clientes e usuários.
         </span>
       </p>
     </Block>
