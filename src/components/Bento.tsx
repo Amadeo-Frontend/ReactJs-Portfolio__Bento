@@ -11,7 +11,7 @@ import ProjectsTextBlock from "./ProjectsTextBlock";
 
 const Bento = () => {
   return (
-    <div className="min-h-screen px-4 py-12 bg-zinc-900 text-zinc-50">
+    <div className="min-h-screen px-4 py-12 bg-backgroundColor text-zinc-50">
       <Logo />
       <motion.div
         initial="initial"
