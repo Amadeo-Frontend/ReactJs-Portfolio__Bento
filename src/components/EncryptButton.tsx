@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Example = () => {
   return (
-    <div className="w-full md:w-[35%]">
+    <div className="w-[90%] md:w-[40%] mx-1">
       <EncryptButton />
     </div>
   );
@@ -64,7 +64,7 @@ const EncryptButton = () => {
       }}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
-      className="w-full sm:max-w-full group relative flex justify-center items-center overflow-hidden rounded-lg border-[1px] whitespace-nowrap border-neutral-300 bg-zinc-850 px-6 py-2 font-mono font-medium uppercase text-neutral-300 transition-colors hover:text-cyan-300 hover:border-cyan-300"
+      className="w-full sm:max-w-full group relative flex justify-center items-center overflow-hidden rounded-lg border-[1px] whitespace-nowrap border-neutral-300 bg-zinc-850 px-4 py-1 font-mono font-medium uppercase text-neutral-300 transition-colors hover:text-cyan-300 hover:border-cyan-300"
     >
       <div className="relative z-10 flex items-center gap-2">
         <FiMail />
@@ -83,7 +83,7 @@ const EncryptButton = () => {
           duration: 1,
           ease: "linear",
         }}
-        className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-indigo-400/0 from-40% via-cyan-400/100 to-indigo-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
+        className="duration-300 absolute inset-0 z-0 scale-115 bg-gradient-to-t from-indigo-400/0 from-40% via-cyan-400/100 to-indigo-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
       />
     </motion.button>
   );
