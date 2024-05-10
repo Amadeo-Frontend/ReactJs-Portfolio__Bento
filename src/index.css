@@ -1,11 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.stroke-cyan-500 {
-  stroke: #00ffff; /* Cyan */
-  stroke-width: 2;
-  stroke-dasharray: 0;
-  stroke-dashoffset: 1000; /* Ajuste conforme necessário */
-  transition: stroke-dashoffset 2s ease-in-out;
-}
