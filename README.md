@@ -10,7 +10,7 @@ Este é um projeto de portfólio desenvolvido para destacar minhas habilidades e
 
 Confira o meu portfólio em ação clicando [AQUI](https://react-js-portfolio-bento.vercel.app/).
 
-![web](https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento/assets/104178969/95160e3a-95b2-44e3-9f61-4a56ba2c4df9)
+![web](https://github.com/Amadeo-Frontend/ReactJs-Portfolio__Bento/assets/104178969/41e0f3ba-9739-428c-abda-9fdab0672c8c)
 
 
 ## Personalização 💻
