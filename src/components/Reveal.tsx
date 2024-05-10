@@ -45,7 +45,7 @@ const Reveal = ({ children, width = "fit-content" }: Props) => {
           bottom: 4,
           left: 0,
           right: 0,
-          background: "#111827",
+          background: "#22D3EE",
           zIndex: 20,
         }}
       ></motion.div>
